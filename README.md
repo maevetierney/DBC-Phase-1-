@@ -13,7 +13,7 @@ If we can be told whether or not each guess is too high or too low, we can strat
 
 
 ### Better Performance when Searching Ordered Data
-There is a constraint to using a binary search algorithm.  The data we're searching through must be sorted.  If that condition is satisfied, a binary search will provide a more efficient search than a linear search algorithm.  
+There is a constraint to using a binary search algorithm.  The data we're searching through must be sorted.  If that condition is satisfied, a binary search will provide a more efficient search than a linear search algorithm.
 
 ![binary search animation](readme-assets/binary-search.gif)
 
@@ -42,7 +42,7 @@ binary_search_include?(:X, symbols)
 
 We'll begin implementing our binary search algorithm by writing a method, `binary_search_include?` that returns `true` or `false`, depending on whether or not the value we're looking for is in the collection.  The method should take two arguments:  an object and a sorted array.  (see Figure 2)
 
-No tests have been written for us.  We'll need to write them ourselves to determine whether or not our method is behaving as we expect.  We can try to minimize the chance of introducing bugs into our binary search algorithm by taking a test-driven approach.  We can start simple and gradually add complexity.  Does our methods work when the array were searching is empty?  What if there is one element in the array, two elements, etc.?  Are there other edge cases that we should test for?
+No tests have been written for us.  We'll need to write them ourselves to determine whether or not our method is behaving as we expect.  We can try to minimize the chance of introducing bugs into our binary search algorithm by taking a test-driven approach.  We can start simple and gradually add complexity.  Does our method work when the array we're searching is empty?  What if there is one element in the array, two elements, etc.?  Are there other edge cases that we should test for?
 
 Beginning with pseudocode might also be beneficial.
 
