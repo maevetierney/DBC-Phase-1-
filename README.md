@@ -13,7 +13,7 @@ If we can be told whether or not each guess is too high or too low, we can strat
 
 
 ### Better Performance when Searching Ordered Data
-There is a constraint to using a binary search algorithm.  The data we're searching through must be sorted.  If that condition is satisfied, a binary search will provide a more efficient search than a linear search algorithm.  
+There is a constraint to using a binary search algorithm.  The data we're searching through must be sorted.  If that condition is satisfied, a binary search will provide a more efficient search than a linear search algorithm.
 
 ![binary search animation](readme-assets/binary-search.gif)
 
