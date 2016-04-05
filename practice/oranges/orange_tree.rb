@@ -1,16 +1,10 @@
 require_relative "orange"
 require_relative "fruit_tree"
 
-class OrangeTree < FruitTree 
-
-  attr_accessor :age, :height, :oranges
-
-  def initialize(args={})
-    @age = args.fetch(age){0}
-    @height = args.fetch(height){0}
-  end 
+class OrangeTree < FruitTree
 
   def pass_growing_season
+    super
     self.height += 2.5 unless height == 25
     if mature? 
       200.times do |i| 
@@ -19,7 +13,16 @@ class OrangeTree < FruitTree
     end 
   end
 
+  def mature?
+    if self.age >= 6
+      true 
+    else
+      false 
+    end 
+  end
+
   def dead?
     self.age >= 100 ? true : false  
   end
+
 end
