@@ -50,7 +50,7 @@ Beginning with pseudocode might also be beneficial.
 
 Our solution needs to be recursive. Binary search is a classic recursive algorithm, and offers good practice.
 
-We also need to complete this challenge without relying on Ruby's built in `Array` and `Enumerable` methods.  The only methods we may call on the array we're searching are `Array#[]` and `Array#length`.  We are free to use keywords like `for`, `while`, or `until`.
+We also need to complete this challenge without relying on Ruby's built in `Array` and `Enumerable` methods.  The only methods we may call on the array we're searching are `Array#[]` and `Array#length`.
 
 
 ### Release 1: Where is the Value Found?
